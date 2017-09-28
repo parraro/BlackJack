@@ -10,6 +10,12 @@
 using namespace std;
 
 int main() {
-	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+	cout << "d" << endl; // prints !!!Hello World!!!
 	return 0;
+}
+
+void numbers(int limit){
+	for(int i=0; i < limit; i++){
+		cout << i << "\n";
+	}
 }
